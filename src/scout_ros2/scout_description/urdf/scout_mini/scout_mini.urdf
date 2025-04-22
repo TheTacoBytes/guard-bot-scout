@@ -7,7 +7,7 @@
   <!-- Base link -->
   <link name="base_link">
     <visual>
-      <origin rpy="0 0 -1.57079" xyz="-0.02 0.015 -0.015"/>
+      <origin rpy="0 0 -1.570796" xyz="0.02 -0.015 -0.015"/>
       <geometry>
         <!-- <mesh filename="package://scout_description/meshes/mini_base_link.dae"/> -->
         <mesh filename="package://scout_description/meshes/BaseWithExtrusionBarFrame.stl" scale="0.00100 0.00100 0.00100"/>
@@ -167,7 +167,7 @@
   </link>
     <joint name="os_lidar_mount" type="fixed">
     <!-- <origin xyz="0.012548 0 0.1311" rpy="0 0 0" /> -->
-    <origin xyz="0.172248 -0.0012 0.1828" rpy="0 0 3.14" />
+    <origin xyz=".178248 -0.0012 0.1828" rpy="0 0 3.14" />
     <parent link="base_link" />
     <child link="os_lidar" />
     <axis xyz="0 0 0" />
