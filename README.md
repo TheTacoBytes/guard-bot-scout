@@ -44,6 +44,7 @@ A differential-drive autonomous robot that fuses stereo-depth and 3D LiDAR data 
 - Python 3.8+ with `torch`, `opencv-python`  
 
 For the person detection you will need to run the publisher and subscriber seperatly or make a launch file to run both. 
+
 (In progress) Added YOLO to detect people but currently the publisher runs from the onboard jetson orin nano and we subscribe on a laptop. (Not required but this is how were are doing the set up currently)
 
 Then open RViz2 with the provided config:
