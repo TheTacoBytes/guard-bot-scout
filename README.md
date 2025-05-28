@@ -8,7 +8,7 @@
 
 A differential-drive autonomous robot that fuses stereo-depth and 3D LiDAR data for real-time exploration and SLAM-based mapping. It overlays live person-detection results onto the generated map, enabling precise localization and tagging of individuals as the robot navigates its environment.
 
-(IN PROGRESS ONCE I HAVE A MORE FINALIZED VERSION I WILL POST HOW TO RUN IT)
+(IN PROGRESS, ONCE I HAVE A MORE FINALIZED VERSION I WILL POST HOW TO RUN IT)
 ## Features
 
 - **Differential-drive platform** with real-time SLAM-based mapping  
